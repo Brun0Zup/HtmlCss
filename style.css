@@ -1,0 +1,133 @@
+body{text-align: center;
+    margin: 0;
+    font-family: 'B612 Mono', monospace;
+    color: white;
+    
+}
+h1{
+    color: white;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 5.5;
+    margin-top: 0;
+}
+h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+a{
+
+    color: white;
+    text-decoration: none;        
+}
+
+.banner{
+   background: url(fundo.jpeg);
+  
+   
+   
+   
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.logo{
+    background-image:url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 132px 40px;
+    height: 40px;
+    position: absolute;
+    width: 132px;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lista li{
+    padding-left: 15px;
+    
+}
+
+
+button{
+    
+    background-color: rgb(27, 158, 48);
+    border: solid transparent 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    margin: 24px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+button:hover{
+    background-color: brown;
+    
+}
+
+.banner1{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    margin: 30px;
+    padding: 75px 15px;
+}
+button{
+    background-color: rgb(27, 158, 48);
+    border: solid transparent 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    margin: 60px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button:hover{
+    background-color: pink;
+}
+/*
+.recomendacoes {
+    display: flex;
+    justify-content: flex-end;
+}
+*/
+ 
+.banner2{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.logo1{
+    background-image:url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 132px 40px;
+    height: 27px;
+    position: absolute;
+    width: 89px;
+    display: block;
+}
+
+.lista1{
+   align-content: 
+    
+}
